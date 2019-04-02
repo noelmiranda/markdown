@@ -1,0 +1,74 @@
+html {
+  margin: 0;
+  padding: 0;
+  width:100%;
+  height:100%;
+  background-color: #0fb5b3;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; */
+}
+
+/* code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+} */
+.titulo{
+  color: white;
+  font-size: 8vh;
+  font-family: serif;
+  font-style: italic;
+  text-align: center;
+
+}
+.background{
+  background-color: #0fb5b3;
+ }
+.line {
+  display: block;  
+  /* width: 750px; */
+  border: 0;
+  border-top: 1px solid white;
+ }
+
+ .enterTitleText{
+  font-size: 5vh;
+  color: white;
+  text-decoration: underline;
+  font-family: 'Franklin Gothic Medium';
+  text-align: center;
+   }
+ .textMarkdown{
+    background-color: #29262f;
+       
+      }
+ .textArea{
+    background-color: #29262f;
+    border:none; 
+    font-size: 3vh;
+    color: white;
+    font-family: Arial;
+    text-align: left;
+    width: 100%;   
+    overflow: auto;
+  
+  }
+  .result{
+    font-size: 5vh;
+    color: black;
+    text-decoration: underline;
+    font-family: 'Franklin Gothic Medium';
+    text-align: center;
+     }
+  .resultArea{
+    background-color: #573d7c;
+    border:none; 
+    font-size: 3vh;
+    color: black;
+    font-family: Arial;
+    text-align: left;
+    width: 100%;
+    height: auto;  
+    }
